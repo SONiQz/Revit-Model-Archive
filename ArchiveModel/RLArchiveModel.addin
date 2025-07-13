@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RL Archive Model</Name>
+		<FullClassName>RL_ArchiveModel.fileButton</FullClassName>
+		<Text>RL Archive Model</Text>
+		<Description>Create and archive of active model.</Description>
+		<VisibilityMode>AlwaysVisible</VisibilityMode>
+		<Assembly>
+			<!--Your .dll path location-->
+			"RLTools\RLArchiveModel.dll"
+		</Assembly>
+		<AddInId>5fea2383-2648-4e38-adf8-5e6047f9dc35</AddInId>
+		<VendorId>www.robertslimbrick.com</VendorId>
+		<VendorDescription>Roberts Limbrick</VendorDescription>
+	</AddIn>
+</RevitAddIns>
